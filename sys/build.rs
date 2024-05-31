@@ -114,6 +114,7 @@ fn main() {
         .define("WHISPER_ALL_WARNINGS_3RD_PARTY", "OFF")
         .define("WHISPER_BUILD_TESTS", "OFF")
         .define("WHISPER_BUILD_EXAMPLES", "OFF")
+        .define("WHISPER_LOG", "OFF")
         .very_verbose(true)
         .pic(true);
 
